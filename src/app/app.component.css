@@ -1,0 +1,6 @@
+.jumbotron {
+  background-image: url('./../assets/img/zissou.png');
+  min-height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

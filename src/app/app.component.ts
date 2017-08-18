@@ -7,7 +7,7 @@ import { Animal } from './animal.model';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Zooberz';
+  title = 'Zissou Zoo';
   masterAnimalList: Animal [] = [
     new Animal('species', 'name', 2, 'diet', 'location', 2, 'sex', 'likes', 'dislikes'),
     new Animal('Tiger', 'Tony', 4, 'carnivore', 'SE Wing', 4, 'Female', 'lounging in sun', 'children climbing in for cuddles')
