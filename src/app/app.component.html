@@ -1,4 +1,6 @@
-<h1>
-  {{title}}
-</h1>
- {{animal.species}}
+<div class="container">
+  <div class="jumbotron">
+    {{title}}
+  </div>
+  <animal-list [childAnimalList]="masterAnimalList"></animal-list>
+</div>
