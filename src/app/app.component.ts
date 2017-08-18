@@ -16,6 +16,6 @@ export class AppComponent {
   selectedAnimal = null;
 
   editAnimal(currentAnimal) {
-  this.selectedAnimal = currentAnimal;
-}
+    this.selectedAnimal = currentAnimal;
+  }
 }
