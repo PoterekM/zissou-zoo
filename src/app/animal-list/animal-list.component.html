@@ -1,3 +1,17 @@
-<p>
-  animal-list works!
-</p>
+<div class="container">
+
+  <ul *ngFor="let currentAnimal of childAnimalList">
+    <h3>{{currentAnimal.species}}</h3>
+    <li>{{currentAnimal.name}}</li>
+    <li>{{currentAnimal.age}}</li>
+    <li>{{currentAnimal.diet}}</li>
+    <li>{{currentAnimal.location}}</li>
+    <li>{{currentAnimal.caretakers}}</li>
+    <li>{{currentAnimal.sex}}</li>
+    <li>{{currentAnimal.likes}}</li>
+    <li>{{currentAnimal.dislikes}}</li>
+
+  </ul>
+
+
+</div>
