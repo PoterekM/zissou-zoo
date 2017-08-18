@@ -22,4 +22,8 @@ export class AppComponent {
   editComplete() {
     this.selectedAnimal = null;
   }
+
+  newAnimal(newAnimalFromChild: Animal) {
+    this.masterAnimalList.push(newAnimalFromChild);
+  }
 }
