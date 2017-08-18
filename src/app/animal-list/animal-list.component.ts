@@ -9,9 +9,12 @@ import { Animal } from './../animal.model';
 })
 export class AnimalListComponent implements OnInit {
   @Input() childAnimalList: Animal[];
+  @Output() editButtonClickedSender = new EventEmitter();
 
 
-  constructor() { }
+  editButtonClicked(currentAnimal) {
+    this.editButtonClickedSender.emit(currentAnimal);
+  }
 
   ngOnInit() {
   }
