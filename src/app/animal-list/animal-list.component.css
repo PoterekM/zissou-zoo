@@ -21,3 +21,9 @@
 select {
   font-family: 'Josefin Sans', sans-serif;
 }
+
+.panel-body {
+  background-image: url('../../assets/img/zissoufullicon.png');
+  opacity: .9;
+  background-position: center;
+}
