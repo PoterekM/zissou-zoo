@@ -3,4 +3,6 @@
 
 .body {
   background-color: #50899C;
+  background-image: url('./../src/assets/img/life-aquatic.jpg');
+  background-size: cover;
 }

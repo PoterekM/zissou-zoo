@@ -58,3 +58,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Acknowledgements
 * Animal informational tile background image is provided by:
 https://www.teepublic.com/t-shirt/31512-steve-zissou
+* page background image
+http://www.soitgoesmag.com/diary/archive-wes-anderson-in-issue-3
