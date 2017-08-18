@@ -25,5 +25,4 @@ export class NewAnimalComponent implements OnInit {
   addNewAnimal() {
     this.addingAnimal = true;
   }
-
 }

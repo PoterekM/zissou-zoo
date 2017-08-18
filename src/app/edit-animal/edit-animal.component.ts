@@ -6,14 +6,15 @@ import { Animal } from './../animal.model';
   templateUrl: './edit-animal.component.html',
   styleUrls: ['./edit-animal.component.css']
 })
+
 export class EditAnimalComponent implements OnInit {
   @Input() childSelectedAnimal: Animal;
   @Output() editCompleteButtonSender = new EventEmitter();
 
   ngOnInit() {
   }
+
   editCompleteButtonClicked() {
     this.editCompleteButtonSender.emit()
   }
-
 }
