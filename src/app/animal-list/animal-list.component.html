@@ -1,31 +1,33 @@
-<select (change)="onChange($event.target.value)">
-  <option value="allAges" selected="selected">Filter By Age</option>
-  <option value="younger" >Below 2 years</option>
-  <option value="older">2 and older</option>
-</select>
+<div class="animal-list">
+  <select (change)="onChange($event.target.value)">
+    <option value="allAges" selected="selected">Filter By Age</option>
+    <option value="younger" >Below 2 years</option>
+    <option value="older">2 and older</option>
+  </select>
 
 
-<div class="flex-container">
+  <div class="flex-container">
 
-  <ul class="list-unstyled" *ngFor="let currentAnimal of childAnimalList | age:filterByAge">
-    <div class="flex-item">
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          {{currentAnimal.name}} <span class="species">{{currentAnimal.species}}</span>
-        </div>
-        <div class="panel-body">
-          <li>{{currentAnimal.age}}</li>
-          <li>{{currentAnimal.diet}}</li>
-          <li>{{currentAnimal.location}}</li>
-          <li>{{currentAnimal.caretakers}}</li>
-          <li>{{currentAnimal.sex}}</li>
-          <li>{{currentAnimal.likes}}</li>
-          <li>{{currentAnimal.dislikes}}</li>
-        </div>
-        <div class="panel-footer">
-          <button (click)="editButtonClicked(currentAnimal)">Edit</button>
+    <ul class="list-unstyled" *ngFor="let currentAnimal of childAnimalList | age:filterByAge">
+      <div class="flex-item">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            {{currentAnimal.name  | uppercase}} <span class="species">{{currentAnimal.species | uppercase}}</span>
+          </div>
+          <div class="panel-body">
+            <li>AGE: {{currentAnimal.age}}</li>
+            <li>DIET: {{currentAnimal.diet | uppercase}}</li>
+            <li>LOCATION: {{currentAnimal.location | uppercase}}</li>
+            <li>CARETAKERS: {{currentAnimal.caretakers}}</li>
+            <li>SEX: {{currentAnimal.sex | uppercase}}</li>
+            <li>LIKES: {{currentAnimal.likes | uppercase}}</li>
+            <li>DISLIKES: {{currentAnimal.dislikes | uppercase}}</li>
+          </div>
+          <div class="panel-footer">
+            <button (click)="editButtonClicked(currentAnimal)">Edit</button>
+          </div>
         </div>
       </div>
-    </div>
-  </ul>
+    </ul>
+  </div>
 </div>

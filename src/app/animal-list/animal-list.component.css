@@ -2,20 +2,21 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
-  border: 2px solid black;
-
 }
 
 .flex-item {
   /*border: 2px solid black;*/
   margin: 10px;
-  min-width: 250px;
+  min-width: 300px;
   max-width: 300px;
+  min-height: 400px;
+  max-height: 400px;
   word-break: normal;
 }
 
 .panel {
   font-family: 'Josefin Sans', sans-serif;
+  border: 2px solid #DEB968;
 }
 
 select {
@@ -25,4 +26,22 @@ select {
 .panel-body {
   background-image: url('../../assets/img/zissoufullicon.png');
   background-position: center;
+  text-shadow: 1px 1px #DEB968;
 }
+
+.panel-heading {
+  background-color: #7CA6B4;
+}
+
+.animal-list {
+  font-size: 16px;
+}
+
+/*font-family: 'Cabin Sketch', cursive;
+font-family: 'Josefin Sans', sans-serif;*/
+/*
+light blue: #7CA6B4;
+dark blue : #50899C;
+pink: #C94342;
+orange: #CE9F5B;
+gold: #DEB968*/
