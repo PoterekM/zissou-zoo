@@ -12,5 +12,8 @@ export class EditAnimalComponent implements OnInit {
 
   ngOnInit() {
   }
+  editCompleteButtonClicked() {
+    this.editCompleteButtonSender.emit()
+  }
 
 }
