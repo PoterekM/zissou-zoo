@@ -5,25 +5,27 @@
 </select>
 
 
+<div class="flex-container">
 
-
-<div class="container">
-
-  <ul *ngFor="let currentAnimal of childAnimalList | age:filterByAge">
-    <h3>{{currentAnimal.species}}</h3>
-    <li>{{currentAnimal.name}}</li>
-    <li>{{currentAnimal.age}}</li>
-    <li>{{currentAnimal.diet}}</li>
-    <li>{{currentAnimal.location}}</li>
-    <li>{{currentAnimal.caretakers}}</li>
-    <li>{{currentAnimal.sex}}</li>
-    <li>{{currentAnimal.likes}}</li>
-    <li>{{currentAnimal.dislikes}}</li>
-
-    <button (click)="editButtonClicked(currentAnimal)">Edit</button>
-
-
+  <ul class="list-unstyled" *ngFor="let currentAnimal of childAnimalList | age:filterByAge">
+    <div class="flex-item">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          {{currentAnimal.name}} <span class="species">{{currentAnimal.species}}</span>
+        </div>
+        <div class="panel-body">
+          <li>{{currentAnimal.age}}</li>
+          <li>{{currentAnimal.diet}}</li>
+          <li>{{currentAnimal.location}}</li>
+          <li>{{currentAnimal.caretakers}}</li>
+          <li>{{currentAnimal.sex}}</li>
+          <li>{{currentAnimal.likes}}</li>
+          <li>{{currentAnimal.dislikes}}</li>
+        </div>
+        <div class="panel-footer">
+          <button (click)="editButtonClicked(currentAnimal)">Edit</button>
+        </div>
+      </div>
+    </div>
   </ul>
-
-
 </div>
