@@ -1,3 +1,5 @@
+<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Josefin+Sans" rel="stylesheet">
+
 <div class="container">
   <div class="jumbotron">
     {{title}}
@@ -7,5 +9,5 @@
   <edit-animal [childSelectedAnimal]="selectedAnimal" (editCompleteButtonSender)="editComplete()"></edit-animal>
 
   <new-animal (newAnimalSender)="newAnimal($event)"></new-animal>
-  
+
 </div>
