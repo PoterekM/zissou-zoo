@@ -2,6 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
+  border: 2px solid black;
 
 }
 
@@ -11,4 +12,12 @@
   min-width: 250px;
   max-width: 300px;
   word-break: normal;
+}
+
+.panel {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+select {
+  font-family: 'Josefin Sans', sans-serif;
 }
