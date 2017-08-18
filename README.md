@@ -40,7 +40,7 @@ In Browser,
 * Move on to Wishlist items.
 
 ## Program Preview
-![Preview of application](src/assets/img/program display.png)
+![Preview of application](src/assets/img/program-display.png)
 
 ## Technologies Used
 * Angular 2
