@@ -4,5 +4,5 @@
   </div>
   <animal-list [childAnimalList]="masterAnimalList" (editButtonClickedSender)="editAnimal($event)"></animal-list>
 
-  <edit-animal [childSelectedAnimal]="selectedAnimal"></edit-animal>
+  <edit-animal [childSelectedAnimal]="selectedAnimal" (editCompleteButtonSender)="editComplete()"></edit-animal>
 </div>

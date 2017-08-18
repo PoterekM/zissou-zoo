@@ -18,4 +18,8 @@ export class AppComponent {
   editAnimal(currentAnimal) {
     this.selectedAnimal = currentAnimal;
   }
+
+  editComplete() {
+    this.selectedAnimal = null;
+  }
 }

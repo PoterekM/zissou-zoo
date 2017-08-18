@@ -8,7 +8,7 @@ import { Animal } from './../animal.model';
 })
 export class EditAnimalComponent implements OnInit {
   @Input() childSelectedAnimal: Animal;
-  // @Output() editCompleteButtonSender = new EventEmitter();
+  @Output() editCompleteButtonSender = new EventEmitter();
 
   ngOnInit() {
   }
