@@ -1,5 +1,6 @@
 # Zissou Zoo Animal Tracker
-_**By Michelle Poterek  8/18/17**_
+#### _Epicodus Angular Javascript: Week 3 Independent Project, August 18, 2017_
+_**By Michelle Poterek**_
 
 ## Description
 This project is for Zissou Zoo employees to view all animals, filter animals to see if they are younger or older than 2, add new animals, and edit them. This project's focus is utilizing two-way data binding, displaying dynamic data, nesting components, and filtering data with a pipe.
