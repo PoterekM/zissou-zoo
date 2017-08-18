@@ -1,5 +1,5 @@
 .jumbotron {
-  background-image: url('./../assets/img/zissou.png');
+  /*background-image: url('./../assets/img/zissou.png');*/
   min-height: 250px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -8,9 +8,8 @@
   color: #7CA6B4;
   text-shadow: 2px 2px #DEB968;
   text-align: center;
-
+  background-color: rgba(198, 103, 73, 0.3);
 }
-
 
 
 
