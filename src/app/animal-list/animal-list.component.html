@@ -12,7 +12,7 @@
       <div class="flex-item">
         <div class="panel panel-default">
           <div class="panel-heading">
-            {{currentAnimal.name  | uppercase}} <span class="species">{{currentAnimal.species | uppercase}}</span>
+            <span class="animal-name">{{currentAnimal.name | uppercase}}</span> {{currentAnimal.species | uppercase}}
           </div>
           <div class="panel-body">
             <li>AGE: {{currentAnimal.age}}</li>

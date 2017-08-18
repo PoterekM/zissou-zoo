@@ -9,8 +9,9 @@
   margin: 10px;
   min-width: 300px;
   max-width: 300px;
-  min-height: 400px;
-  max-height: 400px;
+  /*min-height: 320px;*/
+  /*max-height: 400px;*/
+  min-height: 25%;
   word-break: normal;
 }
 
@@ -31,6 +32,11 @@ select {
 
 .panel-heading {
   background-color: #7CA6B4;
+}
+
+.animal-name {
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 25px;
 }
 
 .animal-list {
