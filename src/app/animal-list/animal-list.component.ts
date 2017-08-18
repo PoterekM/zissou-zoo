@@ -11,12 +11,18 @@ export class AnimalListComponent implements OnInit {
   @Input() childAnimalList: Animal[];
   @Output() editButtonClickedSender = new EventEmitter();
 
+  filterByAge: string = "allAges";
+
+  onChange(optionFromMenu) {
+    this.filterByAge = optionFromMenu;
+  }
   ngOnInit() {
   }
 
   editButtonClicked(currentAnimal) {
     this.editButtonClickedSender.emit(currentAnimal);
   }
+
 
 
 }
