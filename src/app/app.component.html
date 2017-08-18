@@ -2,5 +2,5 @@
   <div class="jumbotron">
     {{title}}
   </div>
-  <animal-list [childAnimalList]="masterAnimalList"></animal-list>
+  <animal-list [childAnimalList]="masterAnimalList" (editButtonClickedSender)="editAnimal($event)"></animal-list>
 </div>
