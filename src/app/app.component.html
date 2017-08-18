@@ -4,9 +4,10 @@
   <div class="jumbotron">
     {{title}}
   </div>
+  <edit-animal [childSelectedAnimal]="selectedAnimal" (editCompleteButtonSender)="editComplete()"></edit-animal>
+  
   <animal-list [childAnimalList]="masterAnimalList" (editButtonClickedSender)="editAnimal($event)"></animal-list>
 
-  <edit-animal [childSelectedAnimal]="selectedAnimal" (editCompleteButtonSender)="editComplete()"></edit-animal>
 
   <new-animal (newAnimalSender)="newAnimal($event)"></new-animal>
 

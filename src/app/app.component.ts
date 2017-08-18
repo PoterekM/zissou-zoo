@@ -9,12 +9,12 @@ import { Animal } from './animal.model';
 export class AppComponent {
   title = 'Zissou Zoo';
   masterAnimalList: Animal [] = [
-    new Animal('Meerkat', 'name', 1, 'diet', 'location', 2, 'sex', 'likes', 'dislikes'),
+    new Animal('Meerkat', 'Maiya', 1, 'omnivore', 'SE Loop', 2, 'Female', 'Burrowing', 'Alarm calls'),
     new Animal('Tiger', 'Tony', 2, 'carnivore', 'SE Wing', 4, 'Female', 'Frosted Flakes', 'children climbing in for cuddles'),
     new Animal('Sloth', 'name', 3, 'herbivore', 'NE wing', 2, 'male', 'sleep', 'falling from branches'),
-    new Animal('species', 'name', 4, 'diet', 'central', 2, 'sex', 'likes', 'dislikes'),
+    new Animal('Platypus', 'Patty', 1, 'carnivore', 'central', 1, 'Female', 'shrip', 'BeanieBabies'),
     new Animal('Polar Bear', 'name', 5, 'diet', 'NW wing', 2, 'Female', 'swimming', 'global warming'),
-    new Animal('Penguin', 'Happy Feet', 2, 'carnivore', 'NW wing', 2, 'Male', 'dancing', 'global warming'),
+    new Animal('Penguin', 'Happy Feet', 1, 'carnivore', 'NW wing', 2, 'Male', 'dancing', 'global warming'),
   ];
 
   selectedAnimal = null;

@@ -1,3 +1,18 @@
 .addAnimal {
   font-family: 'Josefin Sans', sans-serif;
 }
+
+.well {
+  background-color: rgba(31, 63, 39, 0.2);
+  border: none;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+button {
+  color: black;
+}
+
+input {
+  color: black;
+}

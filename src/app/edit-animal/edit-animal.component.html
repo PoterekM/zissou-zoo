@@ -1,35 +1,35 @@
 <div class="editAnimal">
   <div *ngIf="childSelectedAnimal">
-    <h3>Edit information for: {{childSelectedAnimal.name}} {{childSelectedAnimal.species}}</h3>
-    <label>Edit Animal Species</label>
-    <input [(ngModel)]="childSelectedAnimal.species" type="text">
-    <br>
-    <label>Edit Animal Name</label>
-    <input [(ngModel)]="childSelectedAnimal.name" type="text">
-    <br>
-    <label>Edit Animal age</label>
-    <input [(ngModel)]="childSelectedAnimal.age" type="number">
-    <br>
-    <label>Edit Animal diet</label>
-    <input [(ngModel)]="childSelectedAnimal.diet" type="text">
-    <br>
-    <label>Edit Animal location</label>
-    <input [(ngModel)]="childSelectedAnimal.location" type="text">
-    <br>
-    <label>Edit Animal Caretakers</label>
-    <input [(ngModel)]="childSelectedAnimal.caretakers" type="number">
-    <br>
-    <label>Edit Animal Sex</label>
-    <input [(ngModel)]="childSelectedAnimal.sex" type="text">
-    <br>
-    <label>Edit Animal Likes</label>
-    <input [(ngModel)]="childSelectedAnimal.likes" type="text">
-    <br>
-    <label>Edit Animal Dislikes</label>
-    <input [(ngModel)]="childSelectedAnimal.dislikes" type="text">
-    <br>
-
-
-    <button (click)="editCompleteButtonClicked()">Done Editing</button>
+    <div class="well">
+      <h3>Edit information for: {{childSelectedAnimal.name}} {{childSelectedAnimal.species}}</h3>
+      <label>Edit Animal Species</label>
+      <input [(ngModel)]="childSelectedAnimal.species" type="text">
+      <br>
+      <label>Edit Animal Name</label>
+      <input [(ngModel)]="childSelectedAnimal.name" type="text">
+      <br>
+      <label>Edit Animal age</label>
+      <input [(ngModel)]="childSelectedAnimal.age" type="number">
+      <br>
+      <label>Edit Animal diet</label>
+      <input [(ngModel)]="childSelectedAnimal.diet" type="text">
+      <br>
+      <label>Edit Animal location</label>
+      <input [(ngModel)]="childSelectedAnimal.location" type="text">
+      <br>
+      <label>Edit Animal Caretakers</label>
+      <input [(ngModel)]="childSelectedAnimal.caretakers" type="number">
+      <br>
+      <label>Edit Animal Sex</label>
+      <input [(ngModel)]="childSelectedAnimal.sex" type="text">
+      <br>
+      <label>Edit Animal Likes</label>
+      <input [(ngModel)]="childSelectedAnimal.likes" type="text">
+      <br>
+      <label>Edit Animal Dislikes</label>
+      <input [(ngModel)]="childSelectedAnimal.dislikes" type="text">
+      <br>
+      <button (click)="editCompleteButtonClicked()">Done Editing</button>
+    </div>
   </div>
 </div>
