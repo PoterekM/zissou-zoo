@@ -7,14 +7,18 @@ This project is for Zissou Zoo employees to view all animals, filter animals to 
 
 
 ## Installation
+You can visit the application through this link:
+https://zissou-zoo.firebaseapp.com/
+
+OR:
 In Terminal,
 * `git clone https://github.com/PoterekM/zissou-zoo`
 * `cd zissou-zoo`
 * `npm install`
 * `bower install`
-* `ember serve`
-In Browser,
-* Visit the app at http://localhost:4200.
+* `ng serve`
+* In your browser,
+  * Visit the app at http://localhost:4200.
 
 ## User Story
 * I want to log a newly-admitted animal by submitting a form with animal species, name, age, diet, zoo location, number of needed caretakers, sex, one like and one dislike.
